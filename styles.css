@@ -10,6 +10,27 @@ body {
 a {
     text-decoration: none;
 }
+/* Header Section */
 header {
     width: 1140px;
+    max-width: 80%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+}
+header nav a {
+    color: #000;
+    margin-right: 5px;
+    padding: 5px 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    transition: 0.2s;
+}
+header nav a.active, 
+header nav a:hover {
+    background-color: #14ff72cb;
+    border-radius: 5px;
 }
